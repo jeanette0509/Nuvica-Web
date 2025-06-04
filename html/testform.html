@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tes Depresi - PHQ-9</title>
+  <link rel="stylesheet" href="../css/testform.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Dalam 2 minggu terakhir,</h2>
+    <p>Seberapa sering kamu merasa terganggu oleh hal berikut...</p>
+
+    <form id="phq9-form">
+
+      <div class="question">
+        <h3>1. Kurang senang atau tertarik dalam kegiatan sehari-hari?</h3>
+        <div class="options">
+          <label><input type="radio" name="q1" value="0"> Tidak pernah</label>
+          <label><input type="radio" name="q1" value="1"> Beberapa hari</label>
+          <label><input type="radio" name="q1" value="2"> Sebagian besar hari</label>
+          <label><input type="radio" name="q1" value="3"> Hampir setiap hari</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <h3>2. Merasa sedih, muram, dan putus asa?</h3>
+        <div class="options">
+          <label><input type="radio" name="q2" value="0"> Tidak pernah</label>
+          <label><input type="radio" name="q2" value="1"> Beberapa hari</label>
+          <label><input type="radio" name="q2" value="2"> Sebagian besar hari</label>
+          <label><input type="radio" name="q2" value="3"> Hampir setiap hari</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <h3>3. Sulit tidur atau tidur nyenyak; atau terlalu banyak tidur?</h3>
+        <div class="options">
+          <label><input type="radio" name="q3" value="0"> Tidak pernah</label>
+          <label><input type="radio" name="q3" value="1"> Beberapa hari</label>
+          <label><input type="radio" name="q3" value="2"> Sebagian besar hari</label>
+          <label><input type="radio" name="q3" value="3"> Hampir setiap hari</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <h3>4. Merasa lelah atau kekurangan energi?</h3>
+        <div class="options">
+          <label><input type="radio" name="q4" value="0"> Tidak pernah</label>
+          <label><input type="radio" name="q4" value="1"> Beberapa hari</label>
+          <label><input type="radio" name="q4" value="2"> Sebagian besar hari</label>
+          <label><input type="radio" name="q4" value="3"> Hampir setiap hari</label>
+        </div>
+      </div>
+
+      <button type="submit" class="submit-btn" disabled id="submitBtn">Kirim</button>
+    </form>
+  </div>
+
+  <script src="../js/testform.js"></script>
+</body>
+</html>

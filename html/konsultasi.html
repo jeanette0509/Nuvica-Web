@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultation</title>
+    <link rel="stylesheet" href="../css/konsultasi.css">
+</head>
+<body>
+ <nav class="navbar">
+  <div class="logo">
+    <img src="../asset/logo.png" alt="Logo" class="logo-img">
+  </div>
+  <ul class="nav-links">
+    <li><a href="../html/index.html">Home</a></li>
+    <li><a href="../html/konsultasi.html">Consultation</a></li>
+    <li class="dropdown">
+      <a href="#">MindCare ▼</a>
+      <div class="dropdown-content">
+        <a href="../html/mentalTest.html">Mental Test</a>
+        <a href="../html/calmRoom.html">Calm Room</a>
+      </div>
+    </li>
+    <li><a href="../html/about us.html">About Us</a></li>
+  </ul>
+  <a href="../html/signup.html" class="signup-button">Sign Up</a>
+</nav>
+
+
+  <div class="counseling-topics">
+    <h2>Choose Your Counseling Topic</h2>
+    <div class="subtitle">Topic Category</div>
+    <div class="topics-list">
+      <div class="topic selected" data-topic="depression">
+        <img src="../asset/depression.png" alt="Depression">
+        <span>Depression</span>
+      </div>
+      <div class="topic" data-topic="anxiety">
+        <img src="../asset/Insomnia.png" alt="Anxiety">
+        <span>Anxiety</span>
+      </div>
+      <div class="topic" data-topic="stress">
+        <img src="../asset/Stress.png" alt="Stress">
+        <span>Stress</span>
+      </div>
+      <div class="topic" data-topic="trauma">
+        <img src="../asset/Trauma.png" alt="Trauma">
+        <span>Trauma</span>
+      </div>
+    </div>
+  </div>
+
+<div class="doctor-list">
+  <h3>Available Doctors</h3>
+  <div class="doctor-cards">
+
+    <div class="doctor-card" data-topic="depression">
+      <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Ayu" />
+      <div class="doctor-info">
+        <h4>Dr. Ayu M.Ked, Sp.KJ</h4>
+        <p>Sp. Jiwa</p>
+        <p>Depresi, Gangguan Mood</p>
+        <div class="doctor-price">Rp 150.000</div>
+        <button class="chat-button">Chat Now</button>
+      </div>
+    </div>
+    <div class="doctor-card" data-topic="depression">
+      <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Dedi" />
+      <div class="doctor-info">
+        <h4>Dr. Dedi, M.Psi</h4>
+        <p>Psikolog Klinis</p>
+        <p>Depresi, Emosi</p>
+        <div class="doctor-price">Rp 130.000</div>
+        <button class="chat-button">Chat Now</button>
+      </div>
+    </div>
+    <div class="doctor-card" data-topic="depression">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Sari" />
+  <div class="doctor-info">
+    <h4>Dr. Sari M.Psi</h4>
+    <p>Psikolog Klinis</p>
+    <p>Depresi Ringan-Sedang</p>
+    <div class="doctor-price">Rp 140.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="depression">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Rio" />
+  <div class="doctor-info">
+    <h4>Dr. Rio M.Ked, Sp.KJ</h4>
+    <p>Sp. Jiwa</p>
+    <p>Gangguan Mood Berat</p>
+    <div class="doctor-price">Rp 160.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="depression">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Hani" />
+  <div class="doctor-info">
+    <h4>Dr. Hani, M.Psi</h4>
+    <p>Psikolog Klinis</p>
+    <p>Overthinking, Self-Esteem</p>
+    <div class="doctor-price">Rp 125.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="depression">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Tono" />
+  <div class="doctor-info">
+    <h4>Dr. Tono, Sp.KJ</h4>
+    <p>Sp. Jiwa</p>
+    <p>Gangguan Tidur & Depresi</p>
+    <div class="doctor-price">Rp 150.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="depression">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Yeni" />
+  <div class="doctor-info">
+    <h4>Dr. Yeni, Psikolog</h4>
+    <p>Psikolog Klinis</p>
+    <p>Depresi Pasca Melahirkan</p>
+    <div class="doctor-price">Rp 135.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="depression">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Ilham" />
+  <div class="doctor-info">
+    <h4>Dr. Ilham, M.Psi</h4>
+    <p>Psikolog Klinis</p>
+    <p>Kehilangan dan Kesedihan</p>
+    <div class="doctor-price">Rp 145.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+
+    <div class="doctor-card" data-topic="anxiety" style="display: none;">
+      <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Lisa" />
+      <div class="doctor-info">
+        <h4>Dr. Lisa M.Psi, Psikolog</h4>
+        <p>Psikolog Klinis</p>
+        <p>Kecemasan, Panik</p>
+        <div class="doctor-price">Rp 120.000</div>
+        <button class="chat-button">Chat Now</button>
+      </div>
+    </div>
+    <div class="doctor-card" data-topic="anxiety" style="display: none;">
+      <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Farah" />
+      <div class="doctor-info">
+        <h4>Dr. Farah M.Psi</h4>
+        <p>Psikolog Klinis</p>
+        <p>Overthinking, Cemas</p>
+        <div class="doctor-price">Rp 125.000</div>
+        <button class="chat-button">Chat Now</button>
+      </div>
+    </div>
+    <div class="doctor-card" data-topic="anxiety" style="display: none;">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Arif" />
+  <div class="doctor-info">
+    <h4>Dr. Arif, Psikolog</h4>
+    <p>Kecemasan Sosial</p>
+    <p>Fobia, Cemas Berlebih</p>
+    <div class="doctor-price">Rp 135.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="anxiety" style="display: none;">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Diah" />
+  <div class="doctor-info">
+    <h4>Dr. Diah M.Psi</h4>
+    <p>Psikolog Klinis</p>
+    <p>Panic Attack, Kecemasan</p>
+    <div class="doctor-price">Rp 125.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="anxiety" style="display: none;">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Rudi" />
+  <div class="doctor-info">
+    <h4>Dr. Rudi, Sp.KJ</h4>
+    <p>Sp. Jiwa</p>
+    <p>Cemas Berulang</p>
+    <div class="doctor-price">Rp 150.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="anxiety" style="display: none;">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Lala" />
+  <div class="doctor-info">
+    <h4>Dr. Lala M.Psi</h4>
+    <p>Psikolog Klinis</p>
+    <p>Insomnia & Anxiety</p>
+    <div class="doctor-price">Rp 130.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="anxiety" style="display: none;">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Eko" />
+  <div class="doctor-info">
+    <h4>Dr. Eko, Psikolog</h4>
+    <p>Psikoterapis</p>
+    <p>Stres & Kecemasan</p>
+    <div class="doctor-price">Rp 140.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="anxiety" style="display: none;">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Mita" />
+  <div class="doctor-info">
+    <h4>Dr. Mita, M.Psi</h4>
+    <p>Psikolog Klinis</p>
+    <p>Cemas Sosial & Trauma Kecil</p>
+    <div class="doctor-price">Rp 135.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+
+    <div class="doctor-card" data-topic="stress" style="display: none;">
+      <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Budi" />
+      <div class="doctor-info">
+        <h4>Dr. Budi M.Ked</h4>
+        <p>Psikiater</p>
+        <p>Stres, Burnout</p>
+        <div class="doctor-price">Rp 130.000</div>
+        <button class="chat-button">Chat Now</button>
+      </div>
+    </div>
+    <div class="doctor-card" data-topic="stress" style="display: none;">
+      <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Indah" />
+      <div class="doctor-info">
+        <h4>Dr. Indah, M.Psi</h4>
+        <p>Psikolog Organisasi</p>
+        <p>Work Stress, Mental Fatigue</p>
+        <div class="doctor-price">Rp 135.000</div>
+        <button class="chat-button">Chat Now</button>
+      </div>
+    </div>
+    <div class="doctor-card" data-topic="stress">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Sari" />
+  <div class="doctor-info">
+    <h4>Dr. Sari M.Psi</h4>
+    <p>Psikolog Klinis</p>
+    <p>Depresi Ringan-Sedang</p>
+    <div class="doctor-price">Rp 140.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="stress">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Rio" />
+  <div class="doctor-info">
+    <h4>Dr. Rio M.Ked, Sp.KJ</h4>
+    <p>Sp. Jiwa</p>
+    <p>Gangguan Mood Berat</p>
+    <div class="doctor-price">Rp 160.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="stress">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Hani" />
+  <div class="doctor-info">
+    <h4>Dr. Hani, M.Psi</h4>
+    <p>Psikolog Klinis</p>
+    <p>Overthinking, Self-Esteem</p>
+    <div class="doctor-price">Rp 125.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="stress">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Tono" />
+  <div class="doctor-info">
+    <h4>Dr. Tono, Sp.KJ</h4>
+    <p>Sp. Jiwa</p>
+    <p>Gangguan Tidur & Depresi</p>
+    <div class="doctor-price">Rp 150.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="stress">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Yeni" />
+  <div class="doctor-info">
+    <h4>Dr. Yeni, Psikolog</h4>
+    <p>Psikolog Klinis</p>
+    <p>Depresi Pasca Melahirkan</p>
+    <div class="doctor-price">Rp 135.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="stress">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Ilham" />
+  <div class="doctor-info">
+    <h4>Dr. Ilham, M.Psi</h4>
+    <p>Psikolog Klinis</p>
+    <p>Kehilangan dan Kesedihan</p>
+    <div class="doctor-price">Rp 145.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+
+    <div class="doctor-card" data-topic="trauma" style="display: none;">
+      <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Nina" />
+      <div class="doctor-info">
+        <h4>Dr. Nina, Psikolog</h4>
+        <p>Trauma Healing</p>
+        <p>PTSD, Kekerasan Masa Lalu</p>
+        <div class="doctor-price">Rp 160.000</div>
+        <button class="chat-button">Chat Now</button>
+      </div>
+    </div>
+    <div class="doctor-card" data-topic="trauma" style="display: none;">
+      <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Galih" />
+      <div class="doctor-info">
+        <h4>Dr. Galih M.Psi</h4>
+        <p>Psikolog Klinis</p>
+        <p>Inner Child, Abuse</p>
+        <div class="doctor-price">Rp 145.000</div>
+        <button class="chat-button">Chat Now</button>
+      </div>
+    </div>
+    <div class="doctor-card" data-topic="trauma" style="display: none;">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Arif" />
+  <div class="doctor-info">
+    <h4>Dr. Arif, Psikolog</h4>
+    <p>Kecemasan Sosial</p>
+    <p>Fobia, Cemas Berlebih</p>
+    <div class="doctor-price">Rp 135.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="trauma" style="display: none;">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Diah" />
+  <div class="doctor-info">
+    <h4>Dr. Diah M.Psi</h4>
+    <p>Psikolog Klinis</p>
+    <p>Panic Attack, Kecemasan</p>
+    <div class="doctor-price">Rp 125.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="trauma" style="display: none;">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Rudi" />
+  <div class="doctor-info">
+    <h4>Dr. Rudi, Sp.KJ</h4>
+    <p>Sp. Jiwa</p>
+    <p>Cemas Berulang</p>
+    <div class="doctor-price">Rp 150.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="trauma" style="display: none;">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Lala" />
+  <div class="doctor-info">
+    <h4>Dr. Lala M.Psi</h4>
+    <p>Psikolog Klinis</p>
+    <p>Insomnia & Anxiety</p>
+    <div class="doctor-price">Rp 130.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="trauma" style="display: none;">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Eko" />
+  <div class="doctor-info">
+    <h4>Dr. Eko, Psikolog</h4>
+    <p>Psikoterapis</p>
+    <p>Stres & Kecemasan</p>
+    <div class="doctor-price">Rp 140.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+<div class="doctor-card" data-topic="trauma" style="display: none;">
+  <img class="doctor-photo" src="../asset/doctor.webp" alt="Dr. Mita" />
+  <div class="doctor-info">
+    <h4>Dr. Mita, M.Psi</h4>
+    <p>Psikolog Klinis</p>
+    <p>Cemas Sosial & Trauma Kecil</p>
+    <div class="doctor-price">Rp 135.000</div>
+    <button class="chat-button">Chat Now</button>
+  </div>
+</div>
+
+  </div>
+</div>
+      <script src="../js/konsultasi.js"></script>
+      
+</body>
+</html>

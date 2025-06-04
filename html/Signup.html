@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuvica Sign Up</title>
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+
+ <nav class="navbar">
+  <div class="logo">
+    <img src="../asset/logo.png" alt="Logo" class="logo-img">
+  </div>
+  <ul class="nav-links">
+    <li><a href="../html/index.html">Home</a></li>
+    <li><a href="../html/konsultasi.html">Consultation</a></li>
+    <li class="dropdown">
+      <a href="#">MindCare ▼</a>
+      <div class="dropdown-content">
+        <a href="../html/mentalTest.html">Mental Test</a>
+        <a href="../html/calmRoom.html">Calm Room</a>>
+      </div>
+    </li>
+    <li><a href="../html/about us.html">About Us</a></li>
+  </ul>
+  <a href="../html/signup.html" class="signup-button">Sign Up</a>
+</nav>
+
+  <div class="banner">
+    <img src="../asset/logo.png" alt="Welcome Image" class="banner-img">
+  </div>
+  
+
+      <div class="form-container">
+        <form id="signupForm">
+          <h2>Create an Account</h2>
+          <p>Join us today and get started</p>
+    
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" placeholder="Enter your full name" required>
+    
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Enter your email" required>
+    
+          <label>Gender</label>
+          <div class="gender-group">
+            <label><input type="radio" name="gender" value="Male" required> Male</label>
+            <label><input type="radio" name="gender" value="Female" required> Female</label>
+          </div>
+    
+          <label for="password">Password</label>
+          <div class="password-wrapper">
+            <input type="password" id="password" placeholder="Create a password" required>
+            <span class="toggle-password" onclick="togglePassword('password')"></span>
+          </div>
+    
+          <label for="confirmPassword">Confirm Password</label>
+          <div class="password-wrapper">
+            <input type="password" id="confirmPassword" placeholder="Confirm your password" required>
+            <span class="toggle-password" onclick="togglePassword('confirmPassword')"></span>
+          </div>
+    
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" placeholder="Enter your phone number" required>
+    
+          <button type="submit">Sign Up</button>
+    
+          <p class="login-link">Already have an account? <a href="../html/login.html">Log in</a></p>
+        </form>
+      </div>
+
+  
+    <script src="../js/signup.js"></script>
+      
+</body>
+</html>

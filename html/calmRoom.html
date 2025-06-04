@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calm Room</title>
+  <link rel="stylesheet" href="../css/calmRoom.css" />
+</head>
+<body>
+  <div class="overlay">
+    <div class="calm-box">
+      <h1>Welcome to Your Calm Room</h1>
+
+      <audio id="bgMusic" autoplay loop>
+        <source src="../asset/inner-peace-339640.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <button onclick="toggleMusic()">🔈Play Audio</button>
+
+      <div id="timer">05:00</div>
+      <button onclick="startTimer()">Start 5-Minute Nap Timer</button>
+
+      <p><em>“You deserve rest as much as productivity.”</em></p>
+    </div>
+  </div>
+
+  <script src="../js/calmRoom.js"></script>
+</body>
+</html>
